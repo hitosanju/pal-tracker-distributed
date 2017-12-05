@@ -1,8 +1,8 @@
 package test.pivotal.pal.tracker.timesheets;
 
-import io.pivotal.pal.tracker.timesheets.App;
 import org.junit.Test;
 import org.springframework.web.client.RestTemplate;
+import io.pivotal.pal.tracker.timesheets.App;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
