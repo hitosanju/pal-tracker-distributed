@@ -22,7 +22,9 @@ run:
       export DEBIAN_FRONTEND="noninteractive"
       apt-get update
       apt-get -y install mysql-server
+      apt-get -y install rabbitmq-server
       service mysql start
+      service rabbitmq-server start
 
       cd pal-tracker
 
